@@ -1,0 +1,137 @@
+<!-- Created by mayank -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HAPPY RAkSHA</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div class="phone_screen">
+            <span id="btn-on-off" onclick="btnOnOff()"></span>
+            <img src="https://i.ibb.co/cLcvbWP/IMG-20190807-123731-578.jpg" id="phone-screen-on" onclick="phoneScreen1()"/>
+            <span id="set-time">0:00</span>
+            <span id="set-time-2">0</span>
+            <span id="set-time-3">0</span>
+            <span id="set-time-4">0</span>
+            <span id="icon-phone-screen" onclick="phone1()">📞</span>
+            <span id="icon-zamok-screen" onclick="zamok1()">&#128274;</span>
+            <span id="icon-camera-screen" onclick="camera1()">📷</span>
+            
+            <div id="screen-unlock">
+                <span id="screen-unlock-box1"></span>
+                <span id="screen-unlock-box1-text1"></span>
+                <span id="btn-clear-nums" onclick="clearNums()">X</span>
+                <span id="btn-num1-unlock"onclick="numScreen1()">1</span>
+                <span id="btn-num2-unlock"onclick="numScreen2()">2</span>
+                <span id="btn-num3-unlock"onclick="numScreen3()">3</span>
+                <span id="btn-num4-unlock"onclick="numScreen4()">4</span>
+                <span id="btn-num5-unlock"onclick="numScreen5()">5</span>
+                <span id="btn-num6-unlock"onclick="numScreen6()">6</span>
+                <span id="btn-num7-unlock"onclick="numScreen7()">7</span>
+                <span id="btn-num8-unlock"onclick="numScreen8()">8</span>
+                <span id="btn-num9-unlock"onclick="numScreen9()">9</span>
+                <span id="btn-num0-unlock" onclick="numScreen0()">0</span>
+                <img src="https://i.ibb.co/cLcvbWP/IMG-20190807-123731-578.jpg" id="phone-screen-on2" onclick="phoneScreen1()"/>
+            </div>
+            <div id="screen-unlock-open">
+                <img src="https://i.ibb.co/6yhX92d/TARAN.png" id="start-screen-phone" />
+                <img src="https://i.ibb.co/kSQCMDT/IMG-20190809-123507-821.jpg" id="app1" onclick="apps1()"/>
+                <img src="https://i.ibb.co/XFpXW0G/IMG-20190807-201450-787.jpg" id="app2" onclick="apps2()"/> <!-- https://i.ibb.co/XFpXW0G/IMG-20190807-201450-787.jpg -->
+                <span id="set-time-5"></span>
+                <span id="set-bat-num">10%</span>
+                <span id="battery">
+                <span id="battery-box1"></span>
+                </span>
+                <span id="battery-box2"></span>
+                <span id="wifi">
+                    <span id="wifi-box-1"></span>
+                    <span id="wifi-box-2"></span>
+                    <span id="wifi-box-3"></span>
+                    <span id="wifi-box-4"></span>
+                </span>
+                
+            </div>
+            <span id="screen-menu-btn">
+                    <span id="menu-btn-left" onclick="btnLeft()"></span>
+                    <span id="menu-btn-right" onclick="btnRight()"></span>
+                    <span id="menu-btn-center" onclick="btnCenter()"></span>
+              </span>
+                <div id="appOpen">
+                    <span id="app-Open1-screen">
+                    
+                    <span id="apps2-box1" onclick="playerApps2()"></span>
+            <span id="apps2-points"></span>
+            <span id="apps2-shop-btn" onclick="apps2Shop()">Shop</span>
+            <span id="apps2-shop-open">
+                <span id="apps2-buy-1"onclick="appBuy1()">30</span>
+                <span id="apps2-buy-2"onclick="appBuy2()">30</span>
+                <span id="apps2-buy-3"onclick="appBuy3()">30</span>
+                <span id="apps2-buy-4"onclick="appBuy4()">30</span>
+                <span id="apps2-buy-5"onclick="appBuy5()">30</span>
+                <span id="apps2-buy-6"onclick="appBuy6()">30</span>
+                <span id="apps2-buy-7" onclick="appBuy7()">30</span>
+                <span id="apps2-buy-8" onclick="appBuy8()">40</span>
+                <span id="apps2-buy-9" onclick="appBuy9()">40</span>
+                <span id="apps2-buy-10" onclick="appBuy10()">40</span>
+            </span>
+                    </span>
+                </div>
+            <div id="app2Open">
+                <span id="app-Open2-screen">
+                    <table>
+      <tr>
+        <td colspan="4" id="resContainer"><p id="res">0</p></td>
+      </tr>
+      <tr>
+        <td onclick="clearResult();">AC</td>
+        <td onclick="delChar();">C</td>
+        <td onclick="addS3();">%</td>
+        <td onclick="addS2();" class="symbols">&#247;</td>
+      </tr>
+      <tr>
+        <td onclick="addSeven();">7</td>
+        <td onclick="addEight();">8</td>
+        <td onclick="addNine();">9</td>
+        <td onclick="addS1();" class="symbols">&#215;</td>
+      </tr>
+      <tr>
+        <td onclick="addFour();">4</td>
+        <td onclick="addFive();">5</td>
+        <td onclick="addSix();">6</td>
+        <td onclick="addMinus();" class="symbols">-</td>
+      </tr>
+      <tr>
+        <td onclick="addOne();">1</td>
+        <td onclick="addTwo();">2</td>
+        <td onclick="addThree();">3</td>
+        <td onclick="addPlus();" class="symbols">+</td>
+      </tr>
+      <tr>
+        <td onclick="addZero();" colspan="2">0</td>
+        <td onclick="addPoint();">.</td>
+        <td onclick="equal();" class="symbols">=</td>
+      </tr>
+    </table>
+                </span>
+            </div>
+            <div id="app3Open">
+                <a href="rakhi.html">     
+                <img src="https://1.bp.blogspot.com/-74YxFrQn_Ck/XU6hwS3YOWI/AAAAAAAAOWQ/m6_hj6MvJJc7X0lA5X9OLyE5Ij-FjSjRwCEwYBhgL/s1600/surprise.jpg" id="app3">
+                </a>
+                <img src="http://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Media-play-icon.png" id="app4" />
+                <a href ="rakhi.html">
+   <img src="" id="app5" />
+   </a>
+    <img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Google-Drive-icon.png" id="app6">
+           <img src="https://png.icons8.com/color/1600/google-maps.png" id="app7">
+           <img src="https://www.freeiconspng.com/uploads/png-file-related-to-camera-icon-camera-icon-reality-icons-10.png" id="app8">
+           <img id="app9" src="https://3.bp.blogspot.com/-6Y8pk6JPjTo/W8w75jSuchI/AAAAAAAABu4/WcgApXUu8KIbNPhqR7w26nTWkWKVSnJsACLcBGAs/s320/YouTube.png" alt="Youtube"/>
+            <img id="app10" src="https://1.bp.blogspot.com/-mF2SQItypIU/W8xhH4iP3DI/AAAAAAAABxM/LOwYV9qMVWYqMBVrNWfeEgd4IrneHxbkgCLcBGAs/s1600/Twitter.png" alt="Twitter"/>
+            <img id="app11" src="https://1.bp.blogspot.com/-L81eoBbCYvY/W8w78YlrBmI/AAAAAAAABu8/YlPODtfCpHk1ft9dSjb9N8ky3akJAzF7wCLcBGAs/s320/WhatsApp.png" alt="Whatsapp"/>
+
+            </div>
+        </div>
+    </body>
+</html>
