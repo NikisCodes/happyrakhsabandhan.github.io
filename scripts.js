@@ -24,7 +24,7 @@ var date2 = date.getDate();
 var nums = [""]
 var days = ["Mon,", "Tue,", "Wed,", "Thu,", "Fri,", "Sat,", "Sun,"]
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-alert ("password 2020")
+alert ("password 2020! Also switch on the phone")
 $(function () {
     $("#set-time").text(hour+":"+minutes)
     $("#set-time-5").text(hour+":"+minutes)
